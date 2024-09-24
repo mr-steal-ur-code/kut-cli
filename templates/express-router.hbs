@@ -1,0 +1,13 @@
+import * as express from 'express';
+
+const {{name}} = express.Router();
+
+{{name}}.post("/", async (request, response) => {
+  const data = request?.body;
+
+    if () {
+    response.status(200).send(({ success: true, response: "yes"  }));
+  } else response.status(400).send({ success: false, response: "no" });
+})
+
+export default {{name}};

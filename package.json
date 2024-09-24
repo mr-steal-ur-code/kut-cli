@@ -1,0 +1,25 @@
+{
+  "name": "@kutsolutions/cli",
+  "version": "1.0.1",
+  "description": "CLI tool for auto generating routes/directories",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "kutsolutions",
+    "kut-cli",
+    "kutsolutions/cli"
+  ],
+  "bin": {
+    "kut-cli": "./index.js"
+  },
+  "author": "CJ Karkut",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "handlebars": "^4.7.8",
+    "inquirer": "^11.0.2"
+  }
+}
