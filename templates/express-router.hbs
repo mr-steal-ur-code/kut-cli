@@ -1,8 +1,12 @@
-import * as express from 'express';
+import { Router } from 'express';
 
-const {{name}} = express.Router();
+const {{name}}Router = Router();
 
-{{name}}.post("/", async (request, response) => {
+{{name}}Router.get('/', (req, res) => {
+  res.send('{{name}} endpoint');
+});
+
+{{name}}Router.post("/", async (request, response) => {
   const data = request?.body;
 
     if () {
@@ -10,4 +14,4 @@ const {{name}} = express.Router();
   } else response.status(400).send({ success: false, response: "no" });
 })
 
-export default {{name}};
+export default {{name}}Router;
