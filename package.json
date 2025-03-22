@@ -1,6 +1,6 @@
 {
   "name": "@kutsolutions/cli",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "CLI tool for auto generating routes/directories",
   "main": "index.js",
   "type": "module",
